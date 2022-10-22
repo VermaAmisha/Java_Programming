@@ -11,23 +11,27 @@ public class calculator {
         int a = sc.nextInt();
         System.out.print("Choose an operator: '+' , '-' , '*' , '/' ");
         String operator = sc.next();
-        System.out.println("Enter second number: ");
+        System.out.print("Enter second number: ");
         int b = sc.nextInt();
         if(operator == "+") {
             int sum = a + b;
             System.out.println("The sum of two numbers is: " + sum);
         }
-        if(operator == "-") {
+        else if(operator == "-") {
             int difference = a - b;
             System.out.println("The difference between the two numbers is: " + difference);
         }
-        if(operator == "*") {
+        else if(operator == "*") {
             int product = a * b;
             System.out.println("The product of two numbers is: " + product);
         }
-        if(operator == "/") {
+        else if(operator == "/") {
             int quotient = a / b;
             System.out.println("The quotient of two numbers is: " + quotient);
+        }
+        
+        else {
+            System.out.println("Invalid operator!");
         }
     }
 }
