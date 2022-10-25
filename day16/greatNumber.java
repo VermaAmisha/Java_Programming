@@ -1,7 +1,7 @@
 package day16;
 import java.util.*;
 
-public class maxValue {
+public class greatNumber {
 
     public static int greaterValue(int x , int y) {
         if(x > y) {
