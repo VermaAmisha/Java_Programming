@@ -8,6 +8,6 @@ public class doWhile2 {
             i++;
         }
         while(i <= 50);
-        System.out.println("'Amisha Verma' printed 10 times");
+        System.out.println("'Amisha Verma' printed 50 times");
     }
 }
