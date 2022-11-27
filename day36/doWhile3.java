@@ -1,7 +1,7 @@
 package day36;
 import java.util.*;
 
-public class doWhile {
+public class doWhile3 {
     public static void main(String args[]) {
         int i = 1;
         Scanner sc = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class doWhile {
             i++;
         }
         while(i <= j);
-        System.out.println("'Hello world' printed 10 times");
+        System.out.println("'I am Learning Java!' printed" + j + "times");
         sc.close();
     }
 }
