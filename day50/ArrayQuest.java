@@ -1,5 +1,3 @@
-package day50;
-
 public class ArrayQuest {
 
     public static int maxProfit(int prices[]) {
